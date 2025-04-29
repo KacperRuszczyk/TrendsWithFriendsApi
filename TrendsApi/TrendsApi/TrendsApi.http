@@ -1,0 +1,12 @@
+@TrendsApi_HostAddress = http://localhost:8080
+
+### TrendsApi
+POST {{TrendsApi_HostAddress}}/trends
+Accept: application/json
+Content-Type: application/json
+
+{
+    "SearchTerm1": "cat",
+    "SearchTerm2": "cat"
+}
+
